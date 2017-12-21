@@ -14,6 +14,7 @@ function deleteFromObjectByKey(object, key) {
   return newObj;
 }
 
-function destructivelyDeleteFrom ObjectByKey(object, key) {
-  
+function destructivelyDeleteFromObjectByKey(object, key) {
+  delete object[key];
+  return object;
 }
